@@ -23,7 +23,7 @@ $mail.="</div>";
 $correos="".$_POST['destinatario'].",";
 $correos.=$_POST['destinatarioc'];
 
-mail($correos,"Carcajadas Rent - Contacto",$mail,$headers);
+mail($correos,"Mundo Kid - Contacto",$mail,$headers);
 header("Location: ".$_POST['redireccionar']);
 ?>
 
